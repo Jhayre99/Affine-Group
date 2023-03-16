@@ -35,9 +35,9 @@ int main()
 
     /* 
     Case 1 is for encrypted or decrypted with keys when the keys are know to the user
-    also can be used to encryt a text. User can give thier own keys
+    also can be used to encryt a text. User can give their own keys
 
-    Case 2 is for brute forece, used for when the keys are unkown. 
+    Case 2 is for brute forece, used for when the keys are unknown. 
     Group cipher text =  RILTOEAQGEQDPOJOESPQW
     */
 
