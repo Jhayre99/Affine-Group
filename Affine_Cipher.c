@@ -153,10 +153,17 @@ int modInv(int a, int m)
 
 // Function to remove numbers and sybloms from string
 char removeNonLetters(char *plaintext)
+void remove_nums_and_symbols(char *str)
 {
-
-    
+    int i, int j;
+    for (i =0, j=0; str[i] != '\0' i++ {
+        if (!isdigit (str[i]) && !isalpha(str[i])){
+            continue ;   
 }
+        str[j++] = str[i];
+    }
+str[j] = '\0';
+         }
 
 // Function to implement the Brute Force
 void affineBruteFroce(char *plaintext, int a, int b)
