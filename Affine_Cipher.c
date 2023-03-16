@@ -51,13 +51,13 @@ int main()
         printf("Enter the text to be encrypted or decrypted: ");
         scanf("%s", &plaintext);
 
-        // Chaning input to upper case
+        // Changing input to upper case
         for (int i = 0; i < strlen(plaintext); i++)
         {
             plaintext[i] = toupper(plaintext[i]);
         }
 
-        // Remove numbers and sybloms from string
+        // Remove numbers and symbols from string
         removeNonLetters(plaintext);
 
         // Getting the keys
@@ -75,7 +75,7 @@ int main()
         printf("Enter key 2 (0 < 25): : ");
         scanf("%d", &b);
 
-        // Letting the user Choose if they want to decrypt or encrypt
+        // Letting the user choose if they want to decrypt or encrypt
         // If 1 Entered Encryption 
         // If 2 Entered Decrypt
         while((option != 1) && (option != 2))
@@ -145,7 +145,7 @@ int main()
   return 0;      
 }
 
-// Function to calculate the modular multiplicative inverse of a
+// Function to calculate the modular multiplicative inverse 
 int modInv(int a, int m)
 {
     
