@@ -153,7 +153,6 @@ int modInv(int a, int m)
 
 // Function to remove numbers and sybloms from string
 char removeNonLetters(char *plaintext)
-void remove_nums_and_symbols(char *str)
 {
     int i, int j;
     for (i =0, j=0; str[i] != '\0' i++ {
